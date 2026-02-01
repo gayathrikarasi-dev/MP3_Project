@@ -82,17 +82,21 @@ This approach ensures that the original data remains safe and uncorrupted.
 ## Screenshots
 
 ### Help
-Help screen showing available command options.
+<img width="838" height="253" alt="image" src="https://github.com/user-attachments/assets/35a67792-0eaa-4a46-9234-06c5e5808439" />
+
 
 ### View
-<img width="901" height="287" alt="image" src="https://github.com/user-attachments/assets/e3a9ec39-74ce-4b19-912a-8462b53804fb" />
+<img width="899" height="251" alt="image" src="https://github.com/user-attachments/assets/a2bbeab4-6a39-4d63-927a-d538ca07966c" />
+
 
 
 ### Editing
-Editing a specific MP3 tag field.
+<img width="968" height="131" alt="image" src="https://github.com/user-attachments/assets/9c1a805a-4711-41d4-b881-f11cf9d7b9d2" />
+
 
 ### View After Edit
-Shows updated MP3 tag information after modification.
+<img width="911" height="258" alt="image" src="https://github.com/user-attachments/assets/f17c6f4d-0817-4aef-810a-7ff93e852a22" />
+
 
 ---
 
