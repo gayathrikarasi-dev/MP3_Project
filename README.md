@@ -1,107 +1,99 @@
-# 🎵 MP3 Tag Reader using C
+# MP3 Tag Reader using C
 
-## 📌 Overview
-MP3 Tag Reader is a console-based application developed in C that allows users to view and edit MP3 metadata using the ID3 tag format. The program reads information such as Title, Artist, Album, Year, and Genre from MP3 files and provides a safe mechanism to update these tags without corrupting the original file.
+## Overview
+MP3 Tag Reader is a console-based application developed in C that allows users to view and edit metadata from MP3 files using the ID3 tag format. The program displays information such as title, artist, album, year, and genre, and provides a safe mechanism to modify tag data without corrupting the original file.
 
-This project highlights strong fundamentals in C programming, file handling, structures, pointers, and binary data processing.
+This project demonstrates a strong understanding of C programming fundamentals, including file handling, structures, pointers, and binary data processing.
 
 ---
 
-## ✨ Features
-- View MP3 metadata (ID3 tags)
+## Features
+- Read MP3 metadata (ID3 tags)
 - Edit MP3 tag information
-- Clean and readable console output
-- Safe editing using a temporary file mechanism
+- Display metadata in a clear console format
+- Use a temporary file to ensure data safety
 - Lightweight implementation using pure C
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - C Programming
 - File Handling
-- Structures & Pointers
+- Structures and Pointers
 - Binary File Processing
 - GCC Compiler
 
 ---
 
-## 🚀 How to Run
+## How to Compile and Run
 
-### Clone the Repository
+### Compile the Program
 ```bash
-git clone https://github.com/your-username/mp3-tag-reader-c.git
-cd mp3-tag-reader-c
-Compile the Program
-gcc mp3_tag_reader.c -o mp3_tag_reader
-Execute the Program
-./mp3_tag_reader
-📖 Usage
-View MP3 Tag Details
-./mp3_tag_reader -v sample.mp3
-Edit MP3 Tag Details
-./mp3_tag_reader -e <tag> sample.mp3
-After editing, verify the changes:
+gcc mp3_main.c mp3_view.c mp3_edit.c functions.c -o mp3editor
+Run the Program
+./mp3editor
+Usage
+View MP3 Tag Information
+./mp3editor -v sample.mp3
+Edit MP3 Tag Information
+./mp3editor -e <tag> sample.mp3
+After editing, verify the updated information:
 
-./mp3_tag_reader -v sample.mp3
+./mp3editor -v sample.mp3
 Command Options
--v → View MP3 tag information
+-v : View MP3 tag information
 
--e → Edit MP3 tag information
+-e : Edit MP3 tag information
 
-⚙️ Working Principle
-The program reads MP3 metadata directly from binary files.
+Working Principle
+The program reads metadata directly from MP3 binary files. During editing, changes are written to a temporary file. After successful modification, the temporary file replaces the original MP3 file. This approach ensures data integrity and prevents accidental file corruption.
 
-While editing, changes are written to a temporary file.
-
-After successful editing, the temporary file replaces the original MP3 file.
-
-This ensures data integrity and prevents file corruption.
-
-📁 Project Structure
-mp3-tag-reader-c/
+Project Structure
+250046H_MP3_Project/
 │
+├── mp3_main.c
+├── mp3_view.c
+├── mp3_edit.c
+├── functions.c
+├── mp3_header.h
 ├── sample.mp3
-├── temp.mp3
-├── images/
-│   ├── help.png
-│   ├── view.png
-│   ├── edit.png
-│   └── view_after_edit.png
-├── mp3_tag_reader.c
-├── README.md
-└── .gitignore
-🧠 Skills Gained
-C file handling
+├── MP3_TAG_READER.pdf
+├── .gitignore
+└── README.md
+Skills Gained
+Practical experience with C file handling
 
-Binary data processing
+Working with binary data formats
 
-Structures and pointers
+Modular programming using multiple source files
+
+Use of structures and pointers
 
 Command-line application development
 
-Multimedia file format understanding
-
-📋 Requirements
+Requirements
 GCC or any standard C compiler
 
-Linux / Unix-based environment
+Linux or Unix-based environment
 
-👩‍💻 Author
+Author
 Karasi Gayathri
+ECE Graduate | Embedded Systems and C Programming
 
 
 ---
 
-## ❗ IMPORTANT TIPS (please read)
-✔ Paste only inside **README.md**  
-✔ Do **not** paste inside “Description” box  
-✔ After pasting → scroll down → **Preview** tab  
-✔ Then click **Commit changes**
+### Why this version is better
+- Fully human-written tone  
+- No icons or emojis  
+- Clean professional language  
+- ATS and recruiter friendly  
+- Proper GitHub Markdown formatting  
 
----
+You’re doing this the **right way**.  
+If you want, I can also:
+- Review your **code structure**
+- Optimize `.gitignore`
+- Write a **LinkedIn post** in the same human tone
 
-If it still doesn’t look right:
-👉 Tell me **where you are pasting** (GitHub website / VS Code / terminal)  
-👉 Or send me a **screenshot**
-
-I’ll fix it instantly 💙🚀
+Just tell me 👍
