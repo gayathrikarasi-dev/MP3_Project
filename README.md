@@ -22,13 +22,13 @@ This project demonstrates a strong understanding of C programming fundamentals, 
 - Structures and Pointers
 - Binary File Processing
 - GCC Compiler
+## How to Run
 
----
-
-## How to Compile and Run
-
-### Compile the Program
+### Clone the Repository
 ```bash
+git clone https://github.com/your-username/mp3-tag-reader-c.git
+cd mp3-tag-reader-c
+Compile the Program
 gcc mp3_main.c mp3_view.c mp3_edit.c functions.c -o mp3editor
 Run the Program
 ./mp3editor
@@ -37,63 +37,57 @@ View MP3 Tag Information
 ./mp3editor -v sample.mp3
 Edit MP3 Tag Information
 ./mp3editor -e <tag> sample.mp3
-After editing, verify the updated information:
+After editing, view the updated details:
 
 ./mp3editor -v sample.mp3
-Command Options
+Options
 -v : View MP3 tag information
 
 -e : Edit MP3 tag information
 
-Working Principle
-The program reads metadata directly from MP3 binary files. During editing, changes are written to a temporary file. After successful modification, the temporary file replaces the original MP3 file. This approach ensures data integrity and prevents accidental file corruption.
+Notes
+The project includes a sample MP3 file named sample.mp3 for testing.
+
+A temporary file is used while editing tag information.
+
+After successful editing, the temporary file replaces the original file.
+
+This method ensures that the original data is not corrupted during modification.
+
+Skills Learned
+C programming with file handling
+
+Use of structures and pointers
+
+Reading and interpreting binary data
+
+Command-line based application development
+
+Understanding MP3 metadata formats
+
+Dependencies
+GCC or any standard C compiler
 
 Project Structure
-250046H_MP3_Project/
+mp3-tag-reader-c/
 │
+├── sample.mp3
+├── temp.mp3
+├── images/
+│   ├── help.png
+│   ├── view.png
+│   ├── edit.png
+│   └── view_after_edit.png
 ├── mp3_main.c
 ├── mp3_view.c
 ├── mp3_edit.c
 ├── functions.c
 ├── mp3_header.h
-├── sample.mp3
-├── MP3_TAG_READER.pdf
-├── .gitignore
-└── README.md
-Skills Gained
-Practical experience with C file handling
-
-Working with binary data formats
-
-Modular programming using multiple source files
-
-Use of structures and pointers
-
-Command-line application development
-
-Requirements
-GCC or any standard C compiler
-
-Linux or Unix-based environment
-
+├── README.md
+└── .gitignore
 Author
 Karasi Gayathri
-ECE Graduate | Embedded Systems and C Programming
-
+ECE Graduate | C Programming and Embedded Systems
 
 ---
 
-### Why this version is better
-- Fully human-written tone  
-- No icons or emojis  
-- Clean professional language  
-- ATS and recruiter friendly  
-- Proper GitHub Markdown formatting  
-
-You’re doing this the **right way**.  
-If you want, I can also:
-- Review your **code structure**
-- Optimize `.gitignore`
-- Write a **LinkedIn post** in the same human tone
-
-Just tell me 👍
