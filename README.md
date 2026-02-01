@@ -85,7 +85,8 @@ This approach ensures that the original data remains safe and uncorrupted.
 Help screen showing available command options.
 
 ### View
-Displays MP3 tag details from the selected file.
+<img width="901" height="287" alt="image" src="https://github.com/user-attachments/assets/e3a9ec39-74ce-4b19-912a-8462b53804fb" />
+
 
 ### Editing
 Editing a specific MP3 tag field.
