@@ -25,7 +25,7 @@ This project demonstrates a strong understanding of C programming fundamentals, 
 ## How to Run
 
 Clone the repository:
-git clone https://github.com/your-username/mp3-tag-reader-c.git
+git clone https://github.com/gayathrikarasi-dev/MP3_Project.git
 cd mp3-tag-reader-c
 
 
@@ -102,13 +102,13 @@ This approach ensures that the original data remains safe and uncorrupted.
 
 ## Project Structure
 mp3-tag-reader-c/
-├─ sample.mp3               # Sample MP3 file for testing
-├─ temp.mp3                 # Temporary MP3 file used during editing
-├─ images/                  # Screenshots or visuals
+├─ sample.mp3       
+├─ temp.mp3                
+├─ images/               
 │   ├─ help.png
 │   ├─ view.png
 │   ├─ edit.png
 │   └─ v_after_edit.png
-├─ README.md                # Project description, usage, instructions
-└─ .gitignore               # Files/folders to ignore in Git
+├─ README.md           
+└─ .gitignore 
 
