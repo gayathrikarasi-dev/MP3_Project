@@ -30,25 +30,27 @@ cd mp3-tag-reader-c
 
 
 ## Compile the program
-gcc mp3_main.c mp3_view.c mp3_edit.c functions.c -o mp3editor
+gcc mp3_tag_reader.c -o mp3_tag_reader
 
 
 ## Run the program
-./mp3editor
+./mp3_tag_reader
 
 
 ## Usage
 
 View MP3 tags:
-./mp3editor -v sample.mp3
+./mp3_tag_reader -v sample.mp3
+
 
 
 Edit MP3 tags:
-./mp3editor -e <tag> sample.mp3
+./mp3_tag_reader -e <-tag> sample.mp3
+
 
 
 Then view the updated details:
-./mp3editor -v sample.mp3
+ ./mp3_tag_reader -v sample.mp3
 
 
 Use `-v` to view ID3 tag information  
@@ -56,13 +58,12 @@ Use `-e` to edit ID3 tag information
 
 ## Notes
 
-Follow the prompts to enter the MP3 file path and view its metadata.
+- Follow the prompts to enter the MP3 file path and view its metadata.  
+- This project already includes a sample MP3 file named `sample.mp3`.  
+- An additional MP3 file named `temp.mp3` is used to make changes to the original data.  
+- After editing, the temporary file is renamed to replace the original file.  
+- This ensures that the original data remains safe and unchanged.
 
-The project includes a sample MP3 file named `sample.mp3` for testing.  
-An additional file named `temp.mp3` is used while editing tag information.  
-All modifications are written to the temporary file first.  
-After successful editing, the temporary file replaces the original file.  
-This approach ensures that the original data remains safe and uncorrupted.
 
 ---
 
