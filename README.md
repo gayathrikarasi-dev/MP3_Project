@@ -63,19 +63,6 @@ Use `-e` to edit ID3 tag information
 ## Dependencies
 
 - GCC or any standard C compiler
-## Screenshots
-
-### Help
-<img width="838" height="253" alt="image" src="https://github.com/user-attachments/assets/35a67792-0eaa-4a46-9234-06c5e5808439" />
-
-### View
-<img width="899" height="251" alt="image" src="https://github.com/user-attachments/assets/a2bbeab4-6a39-4d63-927a-d538ca07966c" />
-
-### Editing
-<img width="968" height="131" alt="image" src="https://github.com/user-attachments/assets/9c1a805a-4711-41d4-b881-f11cf9d7b9d2" />
-
-### View After Edit
-<img width="911" height="258" alt="image" src="https://github.com/user-attachments/assets/f17c6f4d-0817-4aef-810a-7ff93e852a22" />
 
 ## Project Structure
 mp3-tag-reader-c/
